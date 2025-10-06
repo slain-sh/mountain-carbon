@@ -1,6 +1,5 @@
-# Carburetor
-
-A functional and high contrast colorscheme inspired by IBM Carbon.
+# Mountain Carbon
+Fork of [Carburetor](https://github.com/ozwaldorf/carburetor) patched with [Mountain](https://github.com/mountain-theme/Mountain) colors
 
 ## Table of Contents
 
@@ -22,31 +21,15 @@ A functional and high contrast colorscheme inspired by IBM Carbon.
 3. [Honorable Mentions](#honorable-mentions)
 
 ## Previews
+[Preview](preview.png?raw=true)
 
-### Carburetor Regular
-![image](https://github.com/user-attachments/assets/843df0c7-58a1-4885-8c82-e29821b2b28c)
-
-### Carburetor Cool
-![image](https://github.com/user-attachments/assets/1ba6adc0-cb47-44bd-bdd5-2b20f3fb12dc)
-
-### Carburetor Warm
-![image](https://github.com/user-attachments/assets/bfb99aa6-ebb2-42c3-9b4f-3e887c020b7d)
-
-## Usage
-
-The current form of this scheme is as a direct patch for [catppuccin](https://github.com/catppuccin/catppuccin) ports.
-
-### Nix
-
-Add carburetor flake to your inputs:
-
-```nix
+<!--```nix
 inputs = {
     carburetor.url = "github:ozwaldorf/carburetor";
 }
-```
+```-->
 
-#### Overlay
+<!--#### Overlay
 
 Add the overlay to your nixpkgs to insert the theme's package set:
 
@@ -153,7 +136,7 @@ These custom themes can be defined and used directly in a nixos/home manager der
 };
 ```
 
----
+----->
 
 ### Patch Tool
 
