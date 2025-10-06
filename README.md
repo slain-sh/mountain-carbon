@@ -21,7 +21,7 @@ Fork of [Carburetor](https://github.com/ozwaldorf/carburetor) patched with [Moun
 3. [Honorable Mentions](#honorable-mentions)
 
 ## Previews
-[Preview](preview.png?raw=true)
+![Preview](preview.png?raw=true)
 
 <!--```nix
 inputs = {
